@@ -1,0 +1,41 @@
+// https://oms.wilerhub.com/api/signup
+// POST
+
+in
+{
+  "compname": "Tester New",
+  "device_token": "ewBfuVNLSsq6Jtv9vwCWaJ:APA91bFNcs2J8o4kavKCVmHOvQWw4y6DVaom5QSQj-HK_Z7rZJhUfWccVvcMbVGtwvlfC6pFwLyyq6GbItDFHDMYI80OjPNIkk7casyF1BcnMd5HtwqCRws",
+  "email": "u131@gmail.com",
+  "info": "def info from android",
+  "mode": 1,
+  "name": "Tester New",
+  "password": "12345678",
+  "phone": "4156454445",
+  "sno": 0,
+  "type": "545464" // 6 digit
+}
+
+
+out
+{
+  "success": true,
+  "result": "User Created",
+  "userId": 68,
+  "compid": 63,
+  "company": "Tester New",
+  "email": "u131@gmail.com",
+  "token": "255|TSv5UpujgHA8fFm1qcrUBlBBvIYq3uLHvbyIFhJD60542261",
+  "mode": 1,
+  "ref": "table",
+  "externalApiResponse": {
+    "success": true,
+    "message": "Token sent successfully",
+    "data": {
+      "logintoken": "255|TSv5UpujgHA8fFm1qcrUBlBBvIYq3uLHvbyIFhJD60542261",
+      "bearertoken": "ya29.c.c0ASRK0Gah1f4nsEMLFjNRptW7JfXyKdlGHBSZ_LgMXzCeY8_PObtGL53RpzXrIgQkYyr0SIK3AQhZ3WHWg2szBNr9rdl5YJxND68Tv897gB_8PJlvDPvyZeSIf0fQKYXhwnI-55Lt_YlUv_msClv1zKaFo6LS87Z6hDylrZO4YKuUcCGMi_OPoU0CsFQF8yj2wHL_lcbDM5wUV4PqxQ7HqGmNDmusX7SkGdZ5nW4x8G9oHz55c3zVxjvRtS2MW1JsSWHLYs2ZBhrsc2w95HOXJxFnvwNuGYVSJYr7QtrncTc1HV4FRlgBkPR9HHnDQI2PZFZiTD1ewjTGucdkNyosQH_wNqH5wltz_TY-c76Xy5eXHzkzbkeYRNW5BgL387ChXO_Iy-FmR1zOR1W8wSbklmVQfwaexzWeedJ_shui8us3UVyvZf-2ZowQWp-rn2dBSiIh6XnSJizoMj7avbFbzIdrr42lp4Fw4Xnbwv9bhXe7Fup55nvOwchYBuihci0rl92w1O9x6gokXFB2ypFcd7Q6h2b29IfO1cVWzVk2hqfW2IX0ni_q1Jw7nljx3QJnbduoXfSsXzOu9_wsFw586xYjkx-pijzypyuaw-wF6UM11zZBQqfJar7beiroworun6QqIXjq2223Spgwsjo2_SUIdjcynR7JWbudMMsUn_VF8Ybo3Yg1s2slY2rivqWVu0FgiJVZv8gotfz1bOcV96js4vjogFeVkVffmsigoepRpWskSfWpjcmk9-jr6veXQjY4Q30Fr51yxwfOIVlQ020r8w-U-RWbjg3ibzi_zv0Zb43d85q_fhIOweoFqSX5yxwifMcc6cM2SR73SdXxf2744VX0ux-S5yeg3cnOOabxYFxkkzjtzZ8W6wxuX9q5Y1Fvz12MQ7FBhMJka89lVjcrbJdMr75IQkyw2BmUxhidOvkqsUS5iqVWFdM7wzf5VcpUZIVes5cj1n8I72VVMf8uzz8bdp5M8le1F3_Que0RkdR9JJU0rRS",
+      "updated_at": "2025-10-12T08:22:14.000000Z",
+      "created_at": "2025-10-12T08:22:14.000000Z",
+      "id": 89
+    }
+  }
+}

@@ -1,0 +1,41 @@
+// https://oms.wilerhub.com/api/login
+// POST
+
+in
+{
+  "device_token": "ewBfuVNLSsq6Jtv9vwCWaJ:APA91bFNcs2J8o4kavKCVmHOvQWw4y6DVaom5QSQj-HK_Z7rZJhUfWccVvcMbVGtwvlfC6pFwLyyq6GbItDFHDMYI80OjPNIkk7casyF1BcnMd5HtwqCRws",
+  "email": "u107@gmail.com",
+  "password": "12345678"
+}
+
+out
+{
+  "success": true,
+  "result": {
+    "token": "254|OlFLsILXCAiDTC3Cma0TPfC62RNMFURKsRmCmwxKbf75f859"
+  },
+  "user": "xbox",
+  "email": "u107@gmail.com",
+  "id": 61,
+  "CompanyData": {
+    "id": 56,
+    "userid": 61,
+    "sno": 0,
+    "name": "X Box",
+    "type": "946167",
+    "phone": "9464676199",
+    "dts": [
+      "dfHP35RCT7i-yi5pKs43eV:APA91bEJQJ0gGbK_y3JysNKF7R3XiIwNHgqIQIud1eE0AFl0Bxu9QwzkzUfir9lB_8jzfkqzncrYKfrroZm68AmiLFPgshNtz4Kb1OaUuP5LZejO7C5U8go",
+      "fcof2aw6T76g3nZ3o2K_tB:APA91bFx5sBT5Plv_WMY8UmVehz-hk1CjRS9GHW5N5BSjrCZggRKclL0XguEP5mLj06x4FBqDeJAbFkdm9KTT7GLw1V3wn4EzzA6vExp5ZMKLy57msMWtH8",
+      "cVooq4xpSRSTvIeRY7qW6U:APA91bFg5U7FwXjKcyTRMvid8d-nJ1AOyHV6F-asDgS944miXJ_wq-ZBTSMSADBOXV4LA-FvdVahArBV3XXFnLDlUsFiX81lErJ8_fgc3kgbjspx9zmqQq8",
+      "dLn2OtXZSVWoHTutq-jpei:APA91bESEWXJTQ3W_YCwtinZZeYTkVuFDUldKYeU9zfzUGl-7fBB03TD7-aM2VvJhLi3SZPR8zBn-lGRbymGvcJqMJOPSrujxws8wICtOG01jHQ_kTzZOiM",
+      "fQFyIbSqQzqPOkURDNCEZr:APA91bE9apW3GH0iqHh1OAKqkctkEJ3rU3zTANODVCOZeLrNUYV7UVqCPHhBjiMlRQw7_XxD_gdWM0reMl_GndcV521H0kBG5gQS-IBSQrAJRila5MAlVec"
+    ],
+    "info": "info static",
+    "created_at": "2025-10-06T15:33:26.000000Z",
+    "updated_at": "2025-10-12T08:17:20.000000Z"
+  },
+  "mode": 2,
+  "ref": "table",
+  "external_api_response": "Token sent successfully"
+}

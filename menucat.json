@@ -1,0 +1,68 @@
+// https://oms.wilerhub.com/api/menucat?compid=63
+// GET
+
+
+// Get All Category
+// out
+[
+  {
+    "id": 133,
+    "compid": 63,
+    "pos": 1,
+    "name": "Today's Special",
+    "info": "First Menu Category",
+    "created_at": "2025-10-12T08:22:14.000000Z",
+    "updated_at": "2025-10-12T08:22:14.000000Z"
+  },
+  {
+    "id": 134,
+    "compid": 63,
+    "pos": 2,
+    "name": "Fast Food",
+    "info": "Second Menu Category",
+    "created_at": "2025-10-12T08:22:14.000000Z",
+    "updated_at": "2025-10-12T08:22:14.000000Z"
+  }
+]
+
+
+================================================================
+// https://oms.wilerhub.com/api/menucat   
+// POST
+// Create New Category
+
+// in
+
+{
+  "compid": 63,
+  "info": "Dinner",
+  "name": "Dinner"
+}
+
+// out
+{
+  "message": "Menu id:135 Category Created...",
+  "id": 135
+}
+
+=================================================================
+// https://oms.wilerhub.com/api/menucat/1  // keep this 1 as it is
+//  PUT
+
+in
+[
+  {
+    "compid": 63,
+    "id": 135,
+    "info": "Dinner",
+    "name": "Dinner Update",
+    "pos": 3
+  }
+]
+
+out
+{
+  "message": "Menu Category Updated Bulk..."
+}
+
+====================================================================

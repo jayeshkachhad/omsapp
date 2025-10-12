@@ -1,0 +1,77 @@
+// https://oms.wilerhub.com/api/menuitems?compid=63&catid=134
+// GET
+
+out
+[
+  {
+    "id": 359,
+    "compid": 63,
+    "catid": 134,
+    "pos": 1,
+    "name": "Burger",
+    "type": 1,
+    "price": 150,
+    "price2": 150,
+    "info": "Auto Generated",
+    "created_at": "2025-10-12T08:22:14.000000Z",
+    "updated_at": "2025-10-12T08:22:14.000000Z"
+  }
+]
+
+==================================================================
+//  Create New Item
+
+// https://oms.wilerhub.com/api/menuitems
+// Post
+
+in
+{
+  "catid": 134,
+  "compid": 63,
+  "info": "",
+  "name": "Vadapav",
+  "price": 35,
+  "type": 1
+}
+
+out
+
+{
+  "message": "Menu Item Created...",
+  "id": 362
+}
+
+=====================================================================
+
+
+// Update Iterms
+
+// https://oms.wilerhub.com/api/menuitems/1
+// PUT
+
+in
+[
+  {
+    "catid": 134,
+    "compid": 63,
+    "id": 362,
+    "name": "Vadapav",
+    "pos": 1,
+    "price": 35,
+    "type": 1
+  },
+  {
+    "catid": 134,
+    "compid": 63,
+    "id": 359,
+    "name": "Burger",
+    "pos": 2,
+    "price": 150,
+    "type": 1
+  }
+]
+
+out
+{
+  "message": "Updated Items For Menu Cat... "
+}

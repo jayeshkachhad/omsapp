@@ -1,0 +1,52 @@
+// GET
+// https://oms.wilerhub.com/api/orders?compid=100
+// Body
+// nothing
+// Response\
+[
+    {
+        "id": 78,
+        "compid": 100,
+        "ord": 100001,
+        "name": "Jhv",
+        "phone": "688",
+        "table": 2,
+        "status": 0,
+        "qty": 1,
+        "value": 540,
+        "shop": "0",
+        "address": "0",
+        "deliver": 0,
+        "remark": "0",
+        "info": "info",
+        "createdAt": "2025-11-27T10:22:26.000000Z",
+        "updatedAt": "2025-11-27T10:22:26.000000Z",
+        "items": [
+            {
+                "id": 109,
+                "ordno": 100001,
+                "itemid": 4559,
+                "ino": 1,
+                "name": "TURKISH EGGS",
+                "qty": 1,
+                "price": 540,
+                "value": 540,
+                "info": "justInfo",
+                "created_at": "2025-11-27T10:22:26.000000Z",
+                "updated_at": "2025-11-27T10:22:26.000000Z"
+            }
+        ]
+    }
+]
+
+// Accept Order 
+
+// POST
+// https://oms.wilerhub.com/api/ordstatus?ord=100001&status=1
+
+// Body 
+ Nothing
+
+// Response
+
+{"message":"Order 100001 Accepted..."}

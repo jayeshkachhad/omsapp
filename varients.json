@@ -1,0 +1,61 @@
+// GET 
+
+// https://oms.wilerhub.com/api/getitemvars?compid=63&catid=134&itemid=362
+
+// Body 
+ nothing
+
+// Response
+
+[
+  {
+    "id": 255,
+    "compid": 63,
+    "catid": 134,
+    "itemid": 362,
+    "varname": "Sada",
+    "varprice": 35,
+    "varinfo": "i",
+    "created_at": "2025-10-12T14:43:42.000000Z",
+    "updated_at": "2025-10-12T14:43:42.000000Z"
+  },
+  {
+    "id": 256,
+    "compid": 63,
+    "catid": 134,
+    "itemid": 362,
+    "varname": "Chese",
+    "varprice": 50,
+    "varinfo": "i",
+    "created_at": "2025-10-12T14:43:42.000000Z",
+    "updated_at": "2025-10-12T14:43:42.000000Z"
+  }
+]
+
+// POST
+
+// https://oms.wilerhub.com/api/variants/bulk
+
+// body
+
+[
+  {
+    "catid": 134,
+    "compid": 63,
+    "itemid": 359,
+    "varinfo": "i",
+    "varname": "Classic",
+    "varprice": 125
+  },
+  {
+    "catid": 134,
+    "compid": 63,
+    "itemid": 359,
+    "varinfo": "i",
+    "varname": "Master",
+    "varprice": 135
+  }
+]
+
+// response
+
